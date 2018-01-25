@@ -6,7 +6,7 @@ I'm a dad, a software developer, and filmmaker, and now instructor.
 3. Lists are fun.
 
 You can find me on social media outlets:
-- [facebook](facebook.com/thejohncotton)
-- [twitter](twitter.com/thejohncotton)
-- [github](github.com/thejohncotton)
-- [instagram](instagram.com/thejohncotton)
+- [facebook](http://www.facebook.com/thejohncotton)
+- [twitter](http://www.twitter.com/thejohncotton)
+- [github](http://www.github.com/thejohncotton)
+- [instagram](http://www.instagram.com/thejohncotton)
