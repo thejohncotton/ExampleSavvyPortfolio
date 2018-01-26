@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  background-color:CadetBlue;
+}
+h1 {
+  color:black;
+}
+h2 {
+  color:black;
+}
+p {
+  color:black;
+}
+#navigation li{
+  display:inline;
+}
+
+a {
+  color:purple
+}
+/* style to add red line */
+/* * {
+border: 1px solid red;
+} */
+div {
+  padding: 10px;
+}
+div {
+  margin: 30px;
+}
+.highlight{
+  color:yellow;
+}
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+}
