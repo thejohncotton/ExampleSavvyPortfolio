@@ -11,3 +11,5 @@ You can find me on social media outlets:
 - [twitter](http://www.twitter.com/thejohncotton)
 - [github](http://www.github.com/thejohncotton)
 - [instagram](http://www.instagram.com/thejohncotton)
+
+[A link to my website on netlify](https://johncotton-savvy-portfolio.netlify.com)

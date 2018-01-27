@@ -1,0 +1,22 @@
+body {
+  background-color: CadetBlue;
+  color: white;
+}
+
+#media1 {
+  color: yellow
+}
+
+
+.navigation {
+background-color: white;
+color:red;
+
+}
+.navigation a {
+  color: red;
+}
+
+#media1 {
+  color: green;
+}
