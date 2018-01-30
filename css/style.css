@@ -14,10 +14,6 @@ h2 {
 p {
   color:black;
 }
-#navigation li{
-  display:inline;
-}
-
 a {
   color:purple
 }
@@ -37,12 +33,7 @@ div {
 .container{
   max-width: 960px;
   margin: 0 auto;
-  
-#media1 {
-  color: yellow
 }
-
-
 .navigation {
   position: fixed;
   top: 0;
@@ -56,6 +47,9 @@ div {
   display: inline;
   list-style: none;
 }
+.navigation.submenu {
+  list-style:none;
+}
 
 .navigation .dropdown {
   position: absolute;
@@ -66,6 +60,12 @@ div {
 
 .navigation a:hover + .dropdown {
   display: block;
+  -webkit-transition-delay:0.1s;
+       -moz-transition-delay:0.1s;
+       -ms-transition-delay:0.1s;
+       -o-transition-delay:0.1s;
+       transition-delay:0.1s; 
+
 }
 
 .navigation > ul.container {
