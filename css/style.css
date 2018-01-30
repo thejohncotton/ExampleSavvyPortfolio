@@ -1,3 +1,4 @@
+
 html {
   box-sizing: border-box;
 }
@@ -36,4 +37,20 @@ div {
 .container{
   max-width: 960px;
   margin: 0 auto;
+  
+#media1 {
+  color: yellow
+}
+
+
+.navigation {
+background-color: white;
+color:red;
+
+}
+.navigation a {
+  color: red;
+}
+
+
 }
