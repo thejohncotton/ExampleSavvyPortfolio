@@ -15,7 +15,7 @@ p {
   color:black;
 }
 a {
-  color:purple
+  /* color:purple */
 }
 /* style to add red line */
 /* * {
@@ -60,12 +60,12 @@ div {
 
 .navigation a:hover + .dropdown {
   display: block;
-  -webkit-transition-delay:0.1s;
-       -moz-transition-delay:0.1s;
-       -ms-transition-delay:0.1s;
-       -o-transition-delay:0.1s;
-       transition-delay:0.1s; 
+  z-index: -99999;
 
+}
+.navigation.submenu a:hover {
+
+  display: block;
 }
 
 .navigation > ul.container {
