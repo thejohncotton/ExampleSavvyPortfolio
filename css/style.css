@@ -43,12 +43,14 @@ div {
   left: 10;
   height: auto;
 
+
 }
 
 .navigation > ul > li {
   position: relative;
   display: inline-block;
   list-style: none;
+  padding:15px;
 
 }
 .navigation > ul > li > a {
@@ -81,7 +83,7 @@ div {
   display: inline-block;
 }
 .dropbtn {
-  padding:16px;
+  /* padding:16px; */
 }
 .dropdown-content {
     display: none;
