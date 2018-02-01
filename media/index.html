@@ -4,19 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link type="text/css" rel="stylesheet" href="../css/reset.css"/>
+  <link type="text/css" rel="stylesheet" href="../css/minimal.css"/>
   <link type="text/css" rel="stylesheet" href="../css/style.css"/>
   <title>Media</title>
-  
+
 </head>
 <body>
-  <div style ="width:30px"><img src ="https://avatars3.githubusercontent.com/u/16037890?s=460&v=4" alt="John Cotton"></div>
-  <h1>John Cotton</h1>
-  <ul>
-    <li><a href="../">Home</a></li>
-    <li><a href="/projects">Projects</a></li>
-    <li><a href="/exercises">Exercises</a></li>
-    <li><a href="#">Media</a></li>
-    <li><a href="/blog">Blog</a></li>
+  <div class="content">
+  <div class="row">
+      <div class="navigation container col-6">
+        <ul>
+          <li><a href="../">Home</a></li>
+          <li class="dropdown">
+            <a href="/projects" class="dropbtn">Projects</a>
+            <div class="dropdown-content">
+              <a href="#">Project 1</a>
+              <a href="#">Project 2</a>
+              <a href="#">Project 3</a>
+            </div>
+          </li>
+          <li><a href="/exercises">Exercises</a></li>
+          <li><a href="/media">Media</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+  </div>
   <video width="400" controls>
   <source src="mov/not-easy.mp4" type="video/mp4">
 
@@ -24,4 +37,5 @@
 </video>
   <!-- <input type="text" value='This is an input field, add some text.'></input> -->
 
+</div>
 </html>

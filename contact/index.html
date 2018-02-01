@@ -10,14 +10,24 @@
   <title>Contact</title>
 </head>
 <body>
-  <div class="navigation">
-    <ul>
-      <li><a href="../">Home</a></li>
-      <li><a href="/projects">Projects</a></li>
-      <li><a href="/exercises">Exercises</a></li>
-      <li><a href="/media">Media</a></li>
-      <li><a href="/blog">Contact</a></li>
-    </ul>
+  <div class="content">
+  <div class="row">
+      <div class="navigation container col-12">
+        <ul>
+          <li><a href="../">Home</a></li>
+          <li class="dropdown">
+            <a href="/projects" class="dropbtn">Projects</a>
+            <div class="dropdown-content">
+              <a href="#">Project 1</a>
+              <a href="#">Project 2</a>
+              <a href="#">Project 3</a>
+            </div>
+          </li>
+          <li><a href="/exercises">Exercises</a></li>
+          <li><a href="/media">Media</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
   </div>
 <div>
   <h1>John Cotton's Example Savvy Coders Website</h1>
@@ -114,5 +124,6 @@ The method attribute specifies the HTTP method (GET or POST)
   </form>
 </div>
 <div class="footer"> copyright John Cotton 2018</div>
+</div>
 </body>
 </html>
