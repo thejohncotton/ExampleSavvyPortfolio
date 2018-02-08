@@ -76,7 +76,7 @@ div {
   display: inline-block;
 } */
 
-
+/* dropdown code */
 .dropdown > a {
     color: ForestGreen;
 }
@@ -84,9 +84,7 @@ div {
   position: relative;
   display: inline-block;
 }
-.dropbtn {
-  /* padding:16px; */
-}
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -105,11 +103,9 @@ div {
     display: block;
 
 }
-/* .dropdown-content:hover {
-  display: inline;
-} */
+
 .navigation > ul.container {
-  //these styles will extend the styles already contained in the .container class
+  /* //these styles will extend the styles already contained in the .container class */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
