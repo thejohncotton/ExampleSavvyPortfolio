@@ -45,7 +45,7 @@ contactObject.quote = [
 // console.log(contactObject[sayingOfTheDay])
 
 contactObject.getName = function(){
-    return contactObject.name //is there a better way to do this?
+    return contactObject.name() //is there a better way to do this?
 }
 // console.log(contactObject.getName())
 
