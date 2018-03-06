@@ -7,6 +7,7 @@
   <link type="text/css" rel="stylesheet" href="../css/reset.css" >
   <link type="text/css" rel="stylesheet" href="../css/minimal.css" >
   <link type="text/css" rel="stylesheet" href="../css/style.css" >
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <title>Contact</title>
 </head>
 <body>
@@ -32,7 +33,9 @@
 <div>
   <h1>John Cotton's Example Savvy Coders Website</h1>
 </div>
-
+<div class = "content-area">
+<ul id="contact-list"></ul>
+</div>
 <div class="content-area">
 
   <p>I'm excited to be your guide through this Savvy Coders course.</p>
@@ -88,19 +91,20 @@ The method attribute specifies the HTTP method (GET or POST)
 </form>
 <div class="contact-form"> -->
 <div>
-  <form action="http://formspree.io/john@johncotton.us" method="POST">
+  <!-- <form action="http://formspree.io/john@johncotton.us" method="POST"> -->
+    <form method="post" netlify>
 <!-- <form action="form-responses/new" method="POST"> -->
     <input type="text" name="firstname" placeholder="First Name" autofocus></br>
     <input type="text" name="lastname" placeholder="Last Name"></br>
     <input type="email" name="userEmail" placeholder="email@example.com"></br>
 
-    <label>What's this message about?</br>
+    <!-- <label>What's this message about?</br>
       <input type="radio" name="subject" value="professional" checked><span>I'd like to hire you!</span></br>
       <input type="radio" name="subject" value="personal" checked><span>Personal message</span></br>
       <input type="radio" name="subject" value="other" checked><span>Don't know/something else</span></br>
-    </label>
+    </label> -->
 
-    <input type="checkbox" name="optin" value="trusting" checked>Subscribe me to your newsletter!</br>
+    <!-- <input type="checkbox" name="optin" value="trusting" checked>Subscribe me to your newsletter!</br>
     <input type="checkbox" name="optout" value="skeptical" disabled>Cheeky checkbox...</br>
 
     <label for="marketing">How did you hear about me?</label></br>
@@ -117,7 +121,7 @@ The method attribute specifies the HTTP method (GET or POST)
         <option value="random">We met somewhere else</option>
       </optgroup>
       <option value="other">Other</option>
-    </select></br>
+    </select></br> -->
 
     <textarea name="user_message" rows="8" cols="40"></textarea></br>
     <input type="submit">
@@ -125,5 +129,6 @@ The method attribute specifies the HTTP method (GET or POST)
 </div>
 <div class="footer"> copyright John Cotton 2018</div>
 </div>
+<script type="text/javascript" src="contact.js"></script>
 </body>
 </html>
