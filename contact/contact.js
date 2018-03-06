@@ -1,3 +1,16 @@
+// form handling
+
+$("#contact-form").submit(function(e) {
+  e.preventDefault();
+
+  var $form = $(this);
+  $.post($form.attr("action"), $form.serialize()).then(function() {
+    alert("Thank you!");
+  });
+});
+
+
+
 // Generate html content from an array using forEach.
 
 let contactArray = ["John Cotton", "555-5555", "email@example.com",]
